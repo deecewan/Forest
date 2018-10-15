@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <!-- The identifier that must be unique within the hosting gallery -->
+        <id>Forest.ConsoleWriter</id>
+
+        <!-- The package version number that is used when resolving dependencies -->
+        <version>1.0.0-alpha</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>David Buchan-Swanson</authors>
+
+        <!-- 
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  
+        -->
+        <owners>deecewan</owners>
+
+         <!-- License and project URLs provide links for the gallery -->
+        <licenseUrl>https://raw.githubusercontent.com/deecewan/Forest/master/LICENCE</licenseUrl>
+        <projectUrl>http://github.com/deecewan/Forest</projectUrl>
+
+        <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+        <!-- Any details about this particular release -->
+        <releaseNotes>Initial Release</releaseNotes>
+
+        <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+        <description>A logger for Forest that outputs to the console. Colorized output thanks to Texta.</description>
+
+        <!-- Copyright information -->
+        <copyright>Copyright ©2018 David Buchan-Swanson</copyright>
+
+        <!-- Tags appear in the gallery and can be used for tag searches -->
+        <tags>logger console log print pretty forest writer fsharp</tags>
+
+        <dependencies>
+            <dependency id="FSharp.Core" version="4.5.2" />
+            <dependency id="NETStandard.Library" version="2.0.3" />
+            <dependency id="Forest" version="1.0.0" />
+            <dependency id="Texta" version="1.0.0" />
+        </dependencies>
+    </metadata>
+
+    <files>
+        <file src="bin\Release\**\*.dll" target="lib" />
+        <file src="bin\Release\**\*.pdb" target="lib" />
+    </files>
+</package>
