@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Texta" Version="1.0.0-alpha.1" />
+    <PackageReference Update="FSharp.Core" Version="4.3.4" />
+    <PackageReference Include="Texta" Version="1.0.0-alpha.4" />
   </ItemGroup>
 </Project>

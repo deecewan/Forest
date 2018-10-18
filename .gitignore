@@ -15,3 +15,6 @@ bin
 # End of https://www.gitignore.io/api/fsharp,dotnet
 *.nupkg
 .vs/
+.DS_Store
+packages
+paket-files
