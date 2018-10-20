@@ -1,4 +1,4 @@
-module Forest.FileWriter
+namespace Forest
 
 open System.IO
 open System

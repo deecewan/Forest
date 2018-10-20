@@ -1,4 +1,4 @@
-module Forest.ConsoleWriter
+namespace Forest
 
 open Texta
 

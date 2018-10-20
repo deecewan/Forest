@@ -13,7 +13,7 @@ let withConsole setup assertion =
 
 [<Test>]
 let ``The writer should be able to handle simple outputs``() =
-  let cw = (new Forest.ConsoleWriter.ConsoleWriter() :> Forest.ITarget)
+  let cw = (new Forest.ConsoleWriter() :> Forest.ITarget)
   withConsole(fun _ ->
     cw.Write "LogName" Forest.Log "Test Log"
   )(fun output -> output |> should startWith "\u001b[0;34m[LogName] LOG: Test Log\u001b[0m")
