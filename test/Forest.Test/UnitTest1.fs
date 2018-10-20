@@ -1,4 +1,4 @@
-namespace Tests
+namespace Forest.Test
 
 open NUnit.Framework
 

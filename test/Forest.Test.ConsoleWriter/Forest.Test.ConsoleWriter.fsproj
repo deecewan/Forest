@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Forest\Forest.fsproj" />
-    <ProjectReference Include="..\..\src\ConsoleWriter\ConsoleWriter.fsproj" />
+    <ProjectReference Include="..\..\src\Forest.ConsoleWriter\Forest.ConsoleWriter.fsproj" />
   </ItemGroup>
 
 </Project>
